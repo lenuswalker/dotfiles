@@ -7,6 +7,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 """" Functionality
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " General Settings
