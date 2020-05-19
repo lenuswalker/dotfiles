@@ -14,8 +14,8 @@ set iskeyword+=-                        " Treat dash separated words as a word t
 set formatoptions-=cro                  " Stop newline continution of comments
 
 set hidden                              " Required to keep multiple buffers open multiple buffers
-set tabstop=4                           " Insert 2 spaces for a tab
-set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
+set tabstop=4                           " Insert 4 spaces for a tab
+set smarttab                            " Makes tabbing smarter will realize you have 2 or 4
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
