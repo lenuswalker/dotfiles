@@ -10,8 +10,10 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " General Settings
+syntax on                               " Turn syntax check on
+set spell spelllang=en_us               " Spell check on
 set iskeyword+=-                        " Treat dash separated words as a word text object
-set formatoptions-=cro                  " Stop newline continution of comments
+set formatoptions-=cro                  " Stop newline continuation of comments
 
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set tabstop=4                           " Insert 4 spaces for a tab
