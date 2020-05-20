@@ -46,12 +46,13 @@ inoremap <C-b> <Esc>:badd<Space>
 nnoremap <C-t> :tabnew<Space>
 inoremap <C-t> <Esc>:tabnew<Space>
 nnoremap <C-n> :tabnext<CR>
-inoremap <C-n> :tabnext<CR>
+inoremap <C-n> <Esc>:tabnext<CR>
 nnoremap <C-p> :tabprev<CR>
-inoremap <C-p> :tabprev<CR>
+inoremap <C-p> <Esc>:tabprev<CR>
 """" Insert & Command Navigation Keymaps
 noremap! <A-h> <Left>
 noremap! <A-j> <Down>
 noremap! <A-k> <Up>
 noremap! <A-l> <Right>
-
+"""" Paste Mode
+nmap <silent> <leader>p :set paste<CR>"*p:set nopaste<CR>
