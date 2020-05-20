@@ -1,0 +1,55 @@
+# Environment 
+env:
+  TERM: alacritty # Should this be "xterm-256color"
+
+# Window Settings
+window:
+  decorations: none 
+
+# Scroll Up Settings
+scrolling:
+  history: 10000
+  multiplier: 3
+
+# Font Settings
+font:
+  normal:
+    family: Hack
+    style: Regular
+  bold:
+    family: Hack
+    style: Bold
+  italic:
+    family: Hack
+    style: Italic
+  bold_italic:
+    family: Hack
+    style: Bold Italic
+  #size: 11.0
+
+# Background opacity
+background_opacity: 0.80
+
+# Selection on Highlight
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+# Shell
+# Default:
+#   - (macOS) /bin/bash --login
+#   - (Linux/BSD) user login shell
+#   - (Windows) powershell
+#shell:
+#  program: /bin/bash
+#  args:
+#    - --login
+
+# Startup directory
+#working_directory: "%USERPROFILE%"
+
+# Mouse bindings
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+# Key bindings
