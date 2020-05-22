@@ -1,6 +1,6 @@
 # Environment 
 env:
-  TERM: alacritty # Should this be "xterm-256color"
+  TERM: xterm-256color # Should this be "xterm-256color"
 
 # Window Settings
 window:
