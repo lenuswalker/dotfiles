@@ -32,5 +32,5 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 eval "$(starship init bash)"
 fastfetch
 
-#nu
-#. "$HOME/.cargo/env"
+# nu
+# . "$HOME/.cargo/env"
